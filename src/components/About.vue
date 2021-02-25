@@ -14,14 +14,19 @@
             <h2>Sobre <strong>mí</strong></h2>
           </div>
           <p>
-            Tengo una gran confianza y cariño hacia la tecnología. Así que me dedico a mejorar mis habilidades técnicas y entender mejor las necesidades de las personas.
+            Tengo una gran confianza y cariño hacia la tecnología. Así que me
+            dedico a mejorar mis habilidades técnicas y entender mejor las
+            necesidades de las personas.
           </p>
           <p class="lead">
-            Si estas buscando alguna solución tecnológica, sé que puede ser complicado.
-            No te preocupes mi meta personal es ayudarte a elegir que opción es la mejor para ti.
+            Si estas buscando alguna solución tecnológica, sé que puede ser
+            complicado. No te preocupes mi meta personal es ayudarte a elegir
+            que opción es la mejor para ti.
           </p>
           <p class="mb-5">
-            Mi misión es desarrollar sistemas de información enfocados en el bienestar del los humanos que la usan y que puedan beneficiar a la sociedad.
+            Mi misión es desarrollar sistemas de información enfocados en el
+            bienestar del los humanos que la usan y que puedan beneficiar a la
+            sociedad.
           </p>
 
           <p>
@@ -48,101 +53,22 @@
           </div>
         </div>
         <div class="col-md-9">
-          <div class="skill">
-            <h3>Liderazgo</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 85%"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>85%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <h3>Project management</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 75%"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>75%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <h3>Frontend</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 65%"
-                aria-valuenow="65"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>65%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <h3>Backend</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 85%"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>85%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <h3>Trabajo en equipo</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 80%"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>80%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <h3>Adaptabilidad</h3>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                style="width: 90%"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>90%</span>
-              </div>
-            </div>
-          </div>
+          <SkillProgressBar
+            :label="label_of(backend.details)"
+            :progress="frontend.progress"
+          />
+          <SkillProgressBar
+            :label="label_of(frontend.details)"
+            :progress="backend.progress"
+          />
+          <SkillProgressBar
+            :label="label_of(management.details)"
+            :progress="management.progress"
+          />
+          <SkillProgressBar
+            :label="label_of(teamwork.details)"
+            :progress="teamwork.progress"
+          />
         </div>
       </div>
     </div>
@@ -150,7 +76,46 @@
 </template>
 
 <script>
-export default {};
+import SkillProgressBar from "@/components/SkillProgressBar.vue";
+
+export default {
+  components: {
+    SkillProgressBar,
+  },
+  data() {
+    return {
+      backend: {
+        progress: 100,
+        details: ["Ruby on Rails", "Node.js", "Laravel"],
+      },
+      frontend: {
+        progress: 100,
+        details: ["Vue.js", "Bootstrap", "Vuetify"],
+      },
+      management: {
+        progress: 100,
+        details: ["Project management"],
+      },
+      teamwork: {
+        progress: 100,
+        details: ["Trabajo en equipo"],
+      },
+    };
+  },
+  methods: {
+    label_of(array) {
+      return array.join(", ");
+    },
+  },
+  computed: {
+    backend_label() {
+      return this.label_of(this.backend.details);
+    },
+    frontend_label() {
+      return this.label_of(this.backend.details);
+    },
+  },
+};
 </script>
 
 <style>
