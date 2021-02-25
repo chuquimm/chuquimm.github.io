@@ -13,12 +13,15 @@
           <div class="section-heading">
             <h2>Sobre <strong>mí</strong></h2>
           </div>
+          <p>
+            Tengo una gran confianza y cariño hacia la tecnología. Así que me dedico a mejorar mis habilidades técnicas y entender mejor las necesidades de las personas.
+          </p>
           <p class="lead">
-            Se podría decir que crecí en Internet, por eso siento una gran
-            pasión por la tecnología.
+            Si estas buscando alguna solución tecnológica, sé que puede ser complicado.
+            No te preocupes mi meta personal es ayudarte a elegir que opción es la mejor para ti.
           </p>
           <p class="mb-5">
-            Desarrollo tecnologías de información para beneficiar a la sociedad.
+            Mi misión es desarrollar sistemas de información enfocados en el bienestar del los humanos que la usan y que puedan beneficiar a la sociedad.
           </p>
 
           <p>
@@ -27,12 +30,12 @@
               class="btn btn-primary px-4 py-2 btn-sm smoothscroll"
               >LinkedIn</a
             >
-            <a
+            <!-- <a
               href="./documents/Profile.pdf"
               class="btn btn-secondary px-4 py-2 btn-sm"
               download="./documents/Profile.pdf"
               >Descarga CV</a
-            >
+            > -->
             <!-- <a href="./documents/Profile.pdf" class="btn btn-primary px-4 py-2 btn-sm smoothscroll" download="./documents/Profile.pdf">Descarga CV</a> -->
           </p>
         </div>
