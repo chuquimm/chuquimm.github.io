@@ -29,20 +29,23 @@
             sociedad.
           </p>
 
-          <p>
-            <a
-              href="https://www.linkedin.com/in/marcos-chuquicondor/"
-              class="btn btn-primary px-4 py-2 btn-sm smoothscroll"
-              >LinkedIn</a
-            >
-            <!-- <a
-              href="./documents/Profile.pdf"
-              class="btn btn-secondary px-4 py-2 btn-sm"
-              download="./documents/Profile.pdf"
-              >Descarga CV</a
-            > -->
-            <!-- <a href="./documents/Profile.pdf" class="btn btn-primary px-4 py-2 btn-sm smoothscroll" download="./documents/Profile.pdf">Descarga CV</a> -->
-          </p>
+          <div class="row text-right">
+            <div class="py-1">
+              <a
+                href="https://www.linkedin.com/in/marcos-chuquicondor/"
+                class="btn btn-primary"
+                >Mira mi experiencia</a
+              >
+            </div>
+            <div class="py-1">
+              <a
+                href="https://share.hsforms.com/1-1MjNxlUQz-l8kRZXa-4ggbm29m"
+                class="btn btn-secondary"
+                target="_blank"
+                >Envíame un mensaje</a
+              >
+            </div>
+          </div>
         </div>
       </div>
 
