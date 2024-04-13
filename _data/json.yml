@@ -1,0 +1,31 @@
+- key: Nombre
+  value: Marcos Chuquicondor
+
+- key: user
+  value: chuquimm
+
+- key: temas
+  value:
+    - tecnología
+    - filosofía
+    - impacto social
+  typed: true
+
+- key: Contacto
+  value:
+    - key: Email
+      value: marcos@chuquicondor.com
+      url: "mailto:marcos@chuquicondor.com"
+
+- key: perfiles
+  value:
+    - value: instagram
+      url: https://www.instagram.com/chuquimm/
+    - value: twiter
+      url: https://twitter.com/chuquimm
+
+- key: Template Source
+  value: piazzai/hacked-jekyll
+  url: https://github.com/piazzai/hacked-jekyll
+
+

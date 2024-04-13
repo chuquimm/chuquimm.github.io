@@ -30,7 +30,8 @@ twitter_username: chuquimm
 github_username:  chuquimm
 
 # Build settings
-theme: minima
+theme: hacked-jekyll
+target: "_blank"
 plugins:
   - jekyll-feed
 
