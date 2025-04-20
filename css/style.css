@@ -214,6 +214,25 @@ body {
   background-color: var(--accent-orange);
 }
 
+.section-title-alt {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--light-text); /* Texto claro para fondos oscuros */
+  position: relative;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.section-title-alt::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60%;
+  height: 4px;
+  background-color: var(--accent-orange);
+}
+
 .about-text {
   margin-bottom: 2rem;
 }
@@ -448,6 +467,12 @@ footer {
   opacity: 0.7;
 }
 
+.footer-title {
+  color: var(--accent-orange);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 992px) {
   .hero-title {
@@ -459,6 +484,10 @@ footer {
   }
   
   .section-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title-alt {
     font-size: 2.5rem;
   }
   
@@ -546,6 +575,10 @@ footer {
   .section-title {
     font-size: 2rem;
   }
+
+  .section-title-alt {
+    font-size: 2rem;
+  }
   
   .project-grid {
     grid-template-columns: 1fr;
@@ -562,6 +595,10 @@ footer {
   }
   
   .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title-alt {
     font-size: 1.8rem;
   }
   
