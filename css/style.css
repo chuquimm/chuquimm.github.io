@@ -88,6 +88,43 @@ body {
   overflow: hidden;
 }
 
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.hero-image {
+  max-height: 80vh;
+  max-width: 100%;
+  object-fit: contain;
+  /* Efecto de resplandor sutil alrededor de la imagen */
+  filter: drop-shadow(0 0 10px rgba(242, 153, 74, 0.3));
+  /* animation: float 6s ease-in-out infinite; */
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
 .console-effect {
   position: absolute;
   top: 0;
@@ -482,6 +519,25 @@ footer {
   .hero-subtitle {
     font-size: 1.8rem;
   }
+
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image-container {
+    justify-content: center;
+  }
+  
+  .hero-image {
+    max-height: 50vh;
+  }
   
   .section-title {
     font-size: 2.5rem;
@@ -566,6 +622,10 @@ footer {
   
   .hero-subtitle {
     font-size: 1.5rem;
+  }
+
+  .hero-image {
+    max-height: 40vh;
   }
   
   .about, .skills, .projects, .research, .education, .contact {
