@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "title": "Development",
+      "items": ["Rails", "Vue.js", "Flutter", "Python", "Supabase"]
+    },
+    {
+      "title": "Knowledge Management",
+      "items": ["Obsidian", "Zotero", "Notion", "GitLab"]
+    },
+    {
+      "title": "Focus Areas",
+      "items": ["Automation", "Web & Mobile Apps", "API Integration", "Modular Structures"]
+    },
+    {
+      "title": "Philosophy & Research",
+      "items": ["Philosophy of Technology", "HCI", "Digital Transformation", "Solar Punk Approaches"]
+    }
+  ]
+}

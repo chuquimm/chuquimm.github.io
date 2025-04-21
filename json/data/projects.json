@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "AI Job Matching Assistant",
+      "description": "Generative AI solution connecting professional profiles with job opportunities",
+      "image": "https://via.assets.so/img.jpg?w=300&h=200&tc=#F5F5F0&bg=#2A4B3A",
+      "imageAlt": "AI Assistant for Job Matching",
+      "tags": ["AI", "Python", "API"]
+    },
+    {
+      "title": "Digital Education Platform",
+      "description": "Tools designed to enhance educational experiences through digital interaction",
+      "image": "https://via.assets.so/img.jpg?w=300&h=200&tc=#F5F5F0&bg=#2A4B3A",
+      "imageAlt": "Digital Education Tools",
+      "tags": ["Education", "Vue.js", "Rails"]
+    },
+    {
+      "title": "Offline Data Collection Framework",
+      "description": "Modular framework for mobile applications designed for offline data collection",
+      "image": "https://via.assets.so/img.jpg?w=300&h=200&tc=#F5F5F0&bg=#2A4B3A",
+      "imageAlt": "Modular Framework",
+      "tags": ["Flutter", "Modular", "Offline"]
+    }
+  ]
+}

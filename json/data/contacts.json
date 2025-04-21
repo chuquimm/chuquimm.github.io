@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "type": "Email",
+      "url": "mailto:marcos@chuquicondor.com",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/chuquimm/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "type": "Blog",
+      "url": "https://commitabierto.substack.com/",
+      "icon": "fas fa-rss"
+    }
+  ]
+}

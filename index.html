@@ -9,6 +9,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./img/green-code-favicon.svg">
+  <!-- Add the external JavaScript file -->
 </head>
 <body>
   <!-- Navigation -->
@@ -25,7 +26,6 @@
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#projects" class="nav-link">Projects</a>
       <a href="#research" class="nav-link">Research</a>
-      <!-- <a href="#contact" class="nav-link mobile-only">Get in touch</a> -->
     </div>
     <a href="#contact" class="contact-btn">Get in touch</a>
   </nav>
@@ -85,93 +85,18 @@
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <h2 class="section-title">tech_stack.json</h2>
+    <!-- Container that will be populated by dataLoader.js -->
     <div class="skills-grid">
-      <div class="skill-card">
-        <h3 class="skill-title">Development</h3>
-        <ul class="skill-list">
-          <li>Rails</li>
-          <li>Vue.js</li>
-          <li>Flutter</li>
-          <li>Python</li>
-          <li>Supabase</li>
-        </ul>
-      </div>
-      <div class="skill-card">
-        <h3 class="skill-title">Knowledge Management</h3>
-        <ul class="skill-list">
-          <li>Obsidian</li>
-          <li>Zotero</li>
-          <li>Notion</li>
-          <li>GitLab</li>
-        </ul>
-      </div>
-      <div class="skill-card">
-        <h3 class="skill-title">Focus Areas</h3>
-        <ul class="skill-list">
-          <li>Automation</li>
-          <li>Web & Mobile Apps</li>
-          <li>API Integration</li>
-          <li>Modular Structures</li>
-        </ul>
-      </div>
-      <div class="skill-card">
-        <h3 class="skill-title">Philosophy & Research</h3>
-        <ul class="skill-list">
-          <li>Philosophy of Technology</li>
-          <li>HCI</li>
-          <li>Digital Transformation</li>
-          <li>Solar Punk Approaches</li>
-        </ul>
-      </div>
+      <!-- Content will be loaded dynamically -->
     </div>
   </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects">
     <h2 class="section-title">projects.py</h2>
+    <!-- Container that will be populated by dataLoader.js -->
     <div class="project-grid">
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/api/placeholder/300/200" alt="AI Assistant for Job Matching">
-        </div>
-        <div class="project-content">
-          <h3 class="project-title">AI Job Matching Assistant</h3>
-          <p>Generative AI solution connecting professional profiles with job opportunities</p>
-          <div class="project-tags">
-            <span class="project-tag">AI</span>
-            <span class="project-tag">Python</span>
-            <span class="project-tag">API</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/api/placeholder/300/200" alt="Digital Education Tools">
-        </div>
-        <div class="project-content">
-          <h3 class="project-title">Digital Education Platform</h3>
-          <p>Tools designed to enhance educational experiences through digital interaction</p>
-          <div class="project-tags">
-            <span class="project-tag">Education</span>
-            <span class="project-tag">Vue.js</span>
-            <span class="project-tag">Rails</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/api/placeholder/300/200" alt="Modular Framework">
-        </div>
-        <div class="project-content">
-          <h3 class="project-title">Offline Data Collection Framework</h3>
-          <p>Modular framework for mobile applications designed for offline data collection</p>
-          <div class="project-tags">
-            <span class="project-tag">Flutter</span>
-            <span class="project-tag">Modular</span>
-            <span class="project-tag">Offline</span>
-          </div>
-        </div>
-      </div>
+      <!-- Content will be loaded dynamically -->
     </div>
   </section>
 
@@ -202,28 +127,9 @@
   <!-- Education Section -->
   <section id="education" class="education">
     <h2 class="section-title">education.log</h2>
+    <!-- Container that will be populated by dataLoader.js -->
     <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-content">
-          <div class="timeline-year">Current</div>
-          <h3>Master in Libraries, Archives and Digital Continuity</h3>
-          <p>Universidad Carlos III de Madrid (UC3M)</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-content">
-          <div class="timeline-year">Current</div>
-          <h3>Philosophy Studies</h3>
-          <p>Self-directed studies in Philosophy of Technology and Ethics</p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-content">
-          <div class="timeline-year">Completed</div>
-          <h3>Industrial and Systems Engineering</h3>
-          <p>Universidad de Piura (UDEP)</p>
-        </div>
-      </div>
+      <!-- Content will be loaded dynamically -->
     </div>
   </section>
 
@@ -231,19 +137,9 @@
   <section id="contact" class="contact">
     <h2 class="section-title-alt">contact.init()</h2>
     <p>Interested in collaborating or discussing ideas? Let's connect!</p>
+    <!-- Container that will be populated by dataLoader.js -->
     <div class="contact-links">
-      <a href="mailto:marcos@chuquicondor.com" class="contact-link" target="_blank">
-        <i class="fas fa-envelope contact-icon"></i>
-        <span>Email</span>
-      </a>
-      <a href="https://www.linkedin.com/in/chuquimm/" class="contact-link" target="_blank">
-        <i class="fab fa-linkedin contact-icon"></i>
-        <span>LinkedIn</span>
-      </a>
-      <a href="https://commitabierto.substack.com/" class="contact-link" target="_blank">
-        <i class="fas fa-rss contact-icon"></i>
-        <span>Blog</span>
-      </a>
+      <!-- Content will be loaded dynamically -->
     </div>
   </section>
 
@@ -251,60 +147,6 @@
   <footer>
     <p class="footer-text">© 2025 Marcos Chuquicondor | Designed with philosophy and code</p>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Mobile menu toggle
-      const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-      const navLinks = document.querySelector('.nav-links');
-
-      mobileMenuBtn.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-      });
-
-      // Close mobile menu when clicking a link
-      const mobileNavLinks = document.querySelectorAll('.nav-links .nav-link');
-      mobileNavLinks.forEach(link => {
-        link.addEventListener('click', function() {
-          navLinks.classList.remove('active');
-        });
-      });
-
-      // Add smooth scrolling
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-          });
-        });
-      });
-
-      // Add animation for typing effect (simplified version)
-      const heroTitle = document.querySelector('.hero-title');
-      const originalText = heroTitle.textContent;
-      heroTitle.textContent = '';
-
-      let i = 0;
-      const typeWriter = () => {
-        if (i < originalText.length - 1) {
-          heroTitle.textContent += originalText.charAt(i);
-          i++;
-          setTimeout(typeWriter, 100);
-        } else {
-          heroTitle.innerHTML = originalText.substring(0, originalText.length - 1) + '<span class="blinking-cursor">|</span>';
-        }
-      };
-
-      setTimeout(typeWriter, 1000);
-
-      // Handle resize events for mobile menu
-      window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
-          navLinks.classList.remove('active');
-        }
-      });
-    });
-  </script>
+  <script src="./js/dataLoader.js"></script>
 </body>
 </html>
